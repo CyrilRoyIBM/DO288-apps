@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  APP_MSG: la poutre INC custom message empowered
+  APP_MSG: XXX 666
 

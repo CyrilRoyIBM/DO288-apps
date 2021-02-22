@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: hello 
+  namespace: cyril-roy-fr-ibm-com-micro-java
+
+
+spec:
+  host: hello-cyril-roy-fr-ibm-com-micro-java.apps.ap45.prod.nextcle.com
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: hello
+    weight: 100
+  wildcardPolicy: None

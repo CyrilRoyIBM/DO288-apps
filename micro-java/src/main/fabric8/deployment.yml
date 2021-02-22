@@ -8,4 +8,3 @@ spec:
             - configMapRef:
                 name: env-config
 
-
