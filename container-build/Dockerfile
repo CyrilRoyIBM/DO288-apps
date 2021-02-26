@@ -10,3 +10,4 @@ RUN sed -i 's#Listen 80#Listen 8081#' /etc/httpd/conf/httpd.conf && \
 	chmod -R 770 /var/log/httpd /var/run/httpd
 #USER 1001
 USER root
+USER 0
